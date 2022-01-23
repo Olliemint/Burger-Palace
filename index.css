@@ -293,3 +293,23 @@ footer {
 .form__button:hover {
 	box-shadow: 0 10px 20px rgba(219, 221, 223, 0.911);
 }
+* {
+    box-sizing: border-box;
+  }
+  
+  #parent {
+    color: black;
+    padding: 20px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+  }
+  
+  .fab {
+      padding: 20px;
+      font-size: 30px;
+      color: black;
+      width: 50px;
+      text-align: center;
+      text-decoration: none;
+  }
