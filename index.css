@@ -35,7 +35,7 @@ ul li{
     float:left;
 }
     .button {
-        background-color: rgb(243, 168, 29);
+        background-color: orangered;
         border: none;
         color: white;
         padding: 10px;
@@ -51,8 +51,10 @@ ul li{
 
 #imageone{
     float:right;
-    margin-top:10px;
+    margin-right: auto;
     margin-right:20px;
+    background-color: orange;
+    
     
  
 }
@@ -110,6 +112,9 @@ ul li{
 .ourmenu{
     display:inline-block;
     flex-wrap:wrap;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: orangered;
     
 }
 
@@ -313,3 +318,4 @@ footer {
       text-align: center;
       text-decoration: none;
   }
+  
