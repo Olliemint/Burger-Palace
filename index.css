@@ -281,7 +281,7 @@ footer {
 }
 
 .form__email:focus {
-	outline: 1px solid black;
+	outline: 1px solid white;
 }
 
 .form__button {
@@ -292,6 +292,7 @@ footer {
 	width: 150px;
 	font-size: 10px;
 	background-color: orange;
+    color: white;
 	
 }
 
@@ -303,7 +304,7 @@ footer {
   }
   
   #parent {
-    color: black;
+    color: white;
     padding: 20px;
     width: 100%;
     background-color: white;
