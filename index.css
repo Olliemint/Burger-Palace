@@ -70,7 +70,7 @@ ul li{
     
 }
 .deliv{
-    border:1.5px solid rgb(114, 69, 69);
+    border:1.5px solid rgb(184, 96, 96);
     padding:10px;
     margin:20px;
     float:left;
@@ -114,85 +114,87 @@ ul li{
 }
 
 .topleft{
-border:3px solid black;
+border:3px solid rgb(228, 220, 220);
 padding:10px;
 margin :20px;
 float:left;
 width:25%;
 flex:row;
 text-align:center;
-border-radius: 25px;
+border-radius: 30px;
 
 }
 
 .topcenter{
-border:3px solid black;
+border:3px solid rgb(228, 220, 220);
 padding:10px;
 margin:20px;
 float:left;
 width:25%;
 flex:row;
 text-align:center;
-border-radius: 25px;
+border-radius: 30px;
 
 }
 
 .topright{
-border:3px solid black;
+border:3px solid rgb(228, 220, 220);
 padding:10px;
 margin:20px;
 float:left;
 width:25%;
 flex:row;
 text-align:center;
-border-radius: 25px;
+border-radius: 30px;
 
 }
 
 .amount{
  display:flex;
+ text-align: left;
 
 }
 
 .cart{
- float:right;
- border:1 px solid rgb(239, 253, 255);
- background-color: white;
+ float: inline-end;
+ border:1px solid rgb(239, 253, 255);
+ background-color: rgb(237, 241, 241);
+ border-radius: 10px;
  
  text-align: right;
 }
 
 .bottomleft{
-    border:3px solid black;
+    border:3px solid rgb(228, 220, 220);
     padding:10px;
     margin:20px;
     float:left;
     width:25%;
     flex:row;
     text-align:center;
-    border-radius: 25px;
+    border-radius: 30px;
  }
 
  .bottomcenter{
-    border:3px solid black;
+    border:3px solid rgb(228, 220, 220);
     padding:10px;
     margin:20px;
     float:left;
     width:25%;
     flex:row;
     text-align:center;
-    border-radius: 25px;
+    border-radius: 30px;
  }
 
  .bottomright{
-    border:3px solid black;
+    border:3px solid rgb(228, 220, 220);
     padding:10px;
     margin:20px;
     float:left;
     width:25%;
     flex:row;
     text-align:center;
-    border-radius: 25px;
+    border-radius: 30px;
  }
 
  .doubledecker{
@@ -241,4 +243,53 @@ body{
 .f{
     display: inline-block;
     text-align: right;
+}
+article {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    text-align: center;
+    display: inline;
+}
+
+footer {
+    display: flex;
+    justify-content: left;
+    padding: 5px;
+    text-align: start;
+
+}
+.copy{
+    text-align: start;
+}
+
+.form {
+	margin-bottom: 25px;
+}
+
+.form__email {
+	padding: 15px 20px;
+	border-radius: 5px;
+ 	border: 1px solid black;
+	width: 150px;
+	font-size: 10px;
+}
+
+.form__email:focus {
+	outline: 1px solid black;
+}
+
+.form__button {
+    margin-left: auto;
+    padding: 15px 20px;
+	border-radius: 5px;
+ 	border: 1px solid black;
+	width: 150px;
+	font-size: 10px;
+	background-color: orange;
+	
+}
+
+.form__button:hover {
+	box-shadow: 0 10px 20px rgba(219, 221, 223, 0.911);
 }
