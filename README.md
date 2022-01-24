@@ -1,8 +1,7 @@
 Burger-Palace
 Are you hungry? are you looking for delicious to start your day? Look no futher Burger-Palace website is your home of of tasty and delicious burgers.
 By Oliver Kipkoech Maiyo
-Description
-Burger-palace is an online food store where you can order different varieties of burgers for delivery to your doorstep
+
 
 Setup Instructions
 Burger-Palace is a web based Application and it can be accessed in any browers in your phone or laptop
